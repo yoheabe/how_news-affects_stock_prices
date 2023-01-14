@@ -22,10 +22,13 @@ It was observed in the past that the sudden changes of the share price by fake n
 
 Tweeter 
 – Tweets for most known stock 
+
 Finnhub 
 – Stock news 
+
 GoogleNews
 - News articles 
+
 Kaggle
 – News and opinion articles: 221513 072012 - 012020
 
