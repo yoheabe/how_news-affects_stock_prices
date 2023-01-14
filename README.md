@@ -40,13 +40,13 @@ Tweets: Using python library, imported tweets for the above three stocks for the
 ---
 
 For this EDA, the clean-up process was relatively minimal compared to other projects. The only clean-up process required was to reduce the number of features that were deemed less important. Before using Natural Language Processing to analyze the article datasets, we first had to select a particular stock for our modeling. As an example, I chose the AAPL ticker and performed an analysis on it.
-
+<img src="./images/aapl_daily_articles.png" alt="Number of article per day" width="720"/>
 ![Number of article per day](./images/aapl_daily_articles.png)
 
 It is evident that a large number of articles are published daily about Apple. To limit the amount of irrelevant information, I have attempted to view and delete duplicate articles that have been cleaned and organized. It appears that the number of articles written per day is affected by certain events, such as earnings day, new product announcement, or financial report date. This suggests that the number of articles is seasonal in nature.
 
 ![Article writer for Appl](./images/aapl_article_writter.png)
-
+<img src="./images/aapl_article_writter.png" alt="Article writer for Appl" width="720"/>
 Zacks Investment Research Inc. has been found to be the most popular writer of articles for Apple. Zacks is a leading investment research firm that specializes in stock research, analysis, and recommendations. It is likely that they use advanced data science techniques to inform their investment research and provide the best advice to their clients.
 
 Natural Language Processing (NLP) is a powerful tool used for sentiment analysis, which involves classifying emotions or behavior through natural language processing. The process of NLP involves feature extraction, tokenization, lemmatization, and stopword removal. These processes are carried out using machine learning algorithms, which allow for the analysis of complex language data. Through this process, NLP can be used to accurately identify and classify emotions or behavior in natural language data.
@@ -56,12 +56,13 @@ Natural Language Processing (NLP) is a powerful tool used for sentiment analysis
 
 To predict stock prices, four different models were used: Linear Regression, GRU (Gated Recurrent Unit), LSTM (Long Short-Term Memory), and RNN (Recursive Neural Network). In order to find the best parameters, a Python function was written to test a list of different parameters and return the best one. The historical stock price dataset was joined with the news sentiment score dataset, then manually split into train/test datasets, and put through StandardScaler for scaling. Data was processed with a function that took a list of parameters and fitted them to a given model. In the end, the best parameters were determined and a plot of Actual vs Predicted was generated.
 
-[Actual vs predicted](./images/aapl_actual_predicted_plot.png)
+![Actual vs predicted](./images/aapl_actual_predicted_plot.png)
+<img src="./images/aapl_actual_predicted_plot.png" alt="Actual vs predicted" width="720"/>
 
 #### Parameters performed best outputs:
 
 ![final output](images/final_output.png)
-
+<img src="images/final_output.png" alt="final output from all models" width="720"/>
 > ## Conclusion
 
 In this project, we were able to predict future stock-closing price using sentiment score and opening stock price. We tested four different models, and the Recurrent Neural Network (RNN) model came out as the best. We used sentiment score from daily news as the baseline input for the GRU model, but the mean square error was often high. To improve the accuracy of the prediction, we added more input features to the model.
