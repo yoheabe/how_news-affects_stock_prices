@@ -41,11 +41,11 @@ Tweets: Using python library, imported tweets for the above three stocks for the
 
 For this EDA, the clean-up process was relatively minimal compared to other projects. The only clean-up process required was to reduce the number of features that were deemed less important. Before using Natural Language Processing to analyze the article datasets, we first had to select a particular stock for our modeling. As an example, I chose the AAPL ticker and performed an analysis on it.
 
-[Link](./images/aapl_daily_articles.png)
+![Number of article per day](./images/aapl_daily_articles.png)
 
 It is evident that a large number of articles are published daily about Apple. To limit the amount of irrelevant information, I have attempted to view and delete duplicate articles that have been cleaned and organized. It appears that the number of articles written per day is affected by certain events, such as earnings day, new product announcement, or financial report date. This suggests that the number of articles is seasonal in nature.
 
-[Link](./images/aapl_article_writter.png)
+![Article writer for Appl](./images/aapl_article_writter.png)
 
 Zacks Investment Research Inc. has been found to be the most popular writer of articles for Apple. Zacks is a leading investment research firm that specializes in stock research, analysis, and recommendations. It is likely that they use advanced data science techniques to inform their investment research and provide the best advice to their clients.
 
@@ -56,11 +56,11 @@ Natural Language Processing (NLP) is a powerful tool used for sentiment analysis
 
 To predict stock prices, four different models were used: Linear Regression, GRU (Gated Recurrent Unit), LSTM (Long Short-Term Memory), and RNN (Recursive Neural Network). In order to find the best parameters, a Python function was written to test a list of different parameters and return the best one. The historical stock price dataset was joined with the news sentiment score dataset, then manually split into train/test datasets, and put through StandardScaler for scaling. Data was processed with a function that took a list of parameters and fitted them to a given model. In the end, the best parameters were determined and a plot of Actual vs Predicted was generated.
 
-[Link](./images/aapl_actual_predicted_plot.png)
+[Actual vs predicted](./images/aapl_actual_predicted_plot.png)
 
 #### Parameters performed best outputs:
 
-[Link](images/final_output.png)
+![final output](images/final_output.png)
 
 > ## Conclusion
 
