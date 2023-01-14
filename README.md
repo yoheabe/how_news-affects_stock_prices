@@ -60,7 +60,7 @@ To predict stock prices, four different models were used: Linear Regression, GRU
 
 #### Parameters performed best outputs:
 
-[Link](./images/final_output.png)
+[Link](images/final_output.png)
 
 > ## Conclusion
 
