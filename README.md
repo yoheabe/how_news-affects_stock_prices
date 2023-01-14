@@ -79,6 +79,5 @@ It is recommended to test the following steps in order to improve the effectiven
 - [Media bias fact check Methodology](https://mediabiasfactcheck.com/methodology/)
 - [Sentiment analysis opinion mining with python nlp](https://pub.towardsai.net/sentiment-analysis-opinion-mining-with-python-nlp-tutorial-d1f173ca4e3c)
 - [The 20 US banks at the top in social media](https://thefinancialbrand.com/news/social-media-banking/the-20-u-s-banks-at-the-top-in-social-media-154682/)
-- [https://www.tandfonline.com/doi/full/10.1080/08839514.2022.2151159]
-- [https://www.diva-portal.org/smash/get/diva2:1584099/FULLTEXT01.pdf]
-- [https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/]
+- [Prediction of stock return by LSTM neural network](https://www.tandfonline.com/doi/full/10.1080/08839514.2022.2151159)
+- [Machine Learning in Finance](https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/)
