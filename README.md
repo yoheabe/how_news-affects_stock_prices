@@ -59,6 +59,7 @@ To predict stock prices, four different models were used: Linear Regression, GRU
 #### Parameters performed best outputs:
 
 <img src="images/final_output.png" alt="final output from all models" width="720"/>
+
 > ## Conclusion
 
 In this project, we were able to predict future stock-closing price using sentiment score and opening stock price. We tested four different models, and the Recurrent Neural Network (RNN) model came out as the best. We used sentiment score from daily news as the baseline input for the GRU model, but the mean square error was often high. To improve the accuracy of the prediction, we added more input features to the model.
